@@ -29,7 +29,7 @@
 
 //------------------------------------------------------------------------------
 //
-// CLASS: uvm_tlm_req_rsp_channel #(REQ,RSP)
+// CLASS:wfvwwfrgqwvqvqhkbviqwrbv%%%%%%%%%%%%%%%%%:wqi uvm_tlm_req_rsp_channel #(REQ,RSP)
 //
 // The uvm_tlm_req_rsp_channel contains a request FIFO of type ~REQ~ and a response
 // FIFO of type ~RSP~. These FIFOs can be of any size. This channel is
@@ -199,7 +199,8 @@ class uvm_tlm_req_rsp_channel #(type REQ=int, type RSP=REQ) extends uvm_componen
   // component such as a module, program block, or interface. The last two
   // arguments specify the request and response FIFO sizes, which have default
   // values of 1.
-
+/////////////////////////////////////////////////////////////////////////////////////
+//qwrqwrvqvtbwergerbwerber
   function new (string name, uvm_component parent=null, 
                 int request_fifo_size=1,
                 int response_fifo_size=1);
