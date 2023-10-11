@@ -17,17 +17,14 @@
 //   distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
 //   CONDITIONS OF ANY KIND, either express or implied.  See
 //   the License for the specific language governing
-//   permissions and limitations under the License.
+//   PERMISSIONS AND LIMITATIONS UNDER THE LICENSE.
 //----------------------------------------------------------------------
 
 
-//------------------------------------------------------------------------------
-// Title: TLM Channel Classes
-//------------------------------------------------------------------------------
-// This section defines built-in TLM channel classes.
-//------------------------------------------------------------------------------
 
-//------------------------------------------------------------------------------
+
+
+
 //
 // CLASS:wfvwwfrgqwvqvqhkbviqwrbv%%%%%%%%%%%%%%%%%:wqi uvm_tlm_req_rsp_channel #(REQ,RSP)
 //
@@ -300,7 +297,7 @@ endclass
 // coupled one-to-one relationship, the request and response FIFO sizes are both
 // set to one.
 //
-//------------------------------------------------------------------------------
+://------------------------------------------------------------------------------
 
 class uvm_tlm_transport_channel #(type REQ=int, type RSP=REQ) 
                                      extends uvm_tlm_req_rsp_channel #(REQ, RSP);
